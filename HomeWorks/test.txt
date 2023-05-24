@@ -1,0 +1,21 @@
+Crear 1 documento HTML 
+Con las siguientes caracteristicas: 
+Utiliza la etiqueta de título para poner en el título "Ejercicio de Introducción a HTML" 
+Dentro de la etiqueta body pon un comentario
+Despues un par de parrafos. 
+Crea una lista con 3 enlaces a videos de youtube
+poner como texto el titulo del video.
+Poner un separador de linea
+Crear un formulario de registro que contenga: 
+1. Un campo de texto que almacene el nombre completo
+2. Un campo numerico edad 
+3. Un campo de area de texto para una descripcion de los motivos de registro
+4. Boton para enviar 
+5. Boton de reset Nota: en el action del formulario poner "#" para que no cambie de pagina.
+Poner un separador de linea
+Crea una tabla para multiplicar que contenga lo siguiente: 
+1. Columnas: Numeros del 1 al 10
+2. Con 4 filas rellenas de datos de multiplicacion
+3. Agregar dos atributos a la tabla
+Poner un separador de linea
+Divide el documento en 3 articulos, insertando una imagen, un video de youtube y un audio.
