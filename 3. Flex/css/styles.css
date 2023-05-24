@@ -1,0 +1,30 @@
+#BodyContent{
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    justify-content: left;
+    align-items: stretch;
+}
+
+.Box1{
+    margin: 10px auto;
+    padding: 5px;
+    width: 100px;
+    height: 100px;
+    font-size: medium;
+    font-weight: bolder;
+    text-align: center;
+    border: 2px solid rgb(223, 58, 47);
+    background: rgb(245, 213, 245);
+    color: blue;
+}
+
+.Box1:nth-child(3){
+    width: 300px;
+}
+
+.Box1:nth-child(6){
+    width: 400px;
+}

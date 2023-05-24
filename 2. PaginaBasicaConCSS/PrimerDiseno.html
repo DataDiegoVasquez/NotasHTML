@@ -11,23 +11,27 @@
         content="Esta pagina pretende describir el funcionamiento basico de ciertas etiquetas como parte inicial de un aprendizaje" />
     <!--Vincular la hoja de estilos-->
     <link rel="stylesheet" href="css/styles.css">
-        <title>Pagina Basica</title>
+    <!--Fuentes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <title>Pagina Basica</title>
 </head>
 
 <body>
     <header>
         <figure>
             <img class="logo" src="pics/Logo.jpg"
-            alt="El logo de DFVR: una letra D mayuscula encerrada en un cuadro con las letras D, F, V, R, en la parte inferior">
+                alt="El logo de DFVR: una letra D mayuscula encerrada en un cuadro con las letras D, F, V, R, en la parte inferior">
         </figure>
-        <h1>Pagina Basica</h1>
+        <h1 id="Home">Pagina Basica</h1>
     </header>
     <nav>
         <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Contacto</a></li>
+            <li><a href="#Home">Inicio</a></li>
+            <li><a href="#TextFooter">Contacto</a></li>
             <li><a href="#">Soporte</a></li>
-            <li><a href="#">Menu</a></li>
+            <li><a href="#ListTitle">Menu</a></li>
         </ul>
     </nav>
     <section>
@@ -61,7 +65,7 @@
             </p>
         </article>
         <article>
-            <h2>Lorem ipsum dolor</h2>
+            <h2 id="ListTitle">Lorem ipsum dolor</h2>
 
             <ul>
                 <li>item 3</li>
@@ -80,17 +84,17 @@
             </ul>
         </article>
     </section>
-            <aside>
-                <h2>Lorem ipsum</h2>
-                <ul>
-                    <li><a href="#">Link 1</a></li>
-                    <li><a href="#">Link 2</a></li>
-                    <li><a href="#">Link 3</a></li>
-                </ul>
-            </aside>
-            <footer>
-                <blockquote>&copy  powered by DiegoVasquez</blockquote>
-            </footer>
-
+    <aside>
+        <h2>Lorem ipsum</h2>
+        <ul>
+            <li><a href="#Home">Link 1</a></li>
+            <li><a href="#">Link 2</a></li>
+            <li><a href="#TextFooter">Link 3</a></li>
+        </ul>
+    </aside>
+    <footer>
+        <blockquote id="TextFooter" class="TextFooter">&copy powered by DiegoVasquez</blockquote>
+    </footer>
+</body>
 
 </html>
