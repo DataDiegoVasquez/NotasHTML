@@ -1,0 +1,23 @@
+Crea un documento HTML con el título "Aprendiendo Selectores CSS", con las siguientes caracteristicas:
+
+    1. Enlaza el fichero del archivo que contiene el CSS con el documento HTML
+    2. Dentro del body del documento crea un encabezado, poniendole un 
+    identificador unico.
+    3. Añade una lista ordenada con 4 elementos, poniendole una clase 
+    al primer elemento.
+    4. Añade una lista desordenada con 4 elementos, ponidendole la misma 
+    clase del punto anterior al primer elemento.
+    5. En el CSS eliminar los margenes del documento, con el 
+    selector universal * y poner un paddings 2.
+    6. usando el identificador del encabezado darle un fondo negro, que el color
+    del texto sea blanco y centrar el texto.
+    7. El primer elemento de cada lista mostrarlo en color azul.
+    8. A traves de encadenar selectores, hacer que el primer elemento de 
+    la lista ordenada y el ultimo de la lista sin orden tenga un tamaño de 1.8rem.
+Dividir el documento con una linea
+    9. poner un titulo Flex-box 
+    10. Insertar 10 imagenes que por medio de CSS tengan 200 pixeles de ancho y alto 
+    11. Las imagenes deben adaptarse a la pantalla importante cambiar al espacio disponible hacia abajo.
+Dividir el documento con una linea
+    12. incluir un boton que cuando se pase el puntero del raton por encima 
+    cambie de color de letra y fondo.

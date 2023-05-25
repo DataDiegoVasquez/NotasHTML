@@ -9,22 +9,22 @@ selector {
 /*para toda la pagina se utiliza el * */
 * {
   color: rgb(3, 59, 41);
-  font-size: medium;
+  font-size: small;
   background-color: rgb(241, 229, 211);
-  font-family: 'Noto Sans', sans-serif;
+  font-family: "Noto Sans", sans-serif;
 }
 body {
   margin: 0px auto;
-  
 }
 header {
   background: aqua;
   width: 98%;
-  padding: 10px;
-  margin: 5px 5px;
+  padding: 2px;
+  margin: 3px 1px;
   display: inline-block;
 }
 header h1 {
+  width: 60%;
   font-size: x-large;
   background: aqua;
   color: black;
@@ -43,29 +43,30 @@ header figure {
   width: 50px;
 }
 nav {
-    font-size: 1em;
-    width: 95%;
-    padding: 5px;
-    margin: 1px 1px;
-    text-align: center;
+  font-size: 1em;
+  width: 95%;
+  padding: 5px;
+  margin: 1px 1px;
+  text-align: center;
 }
 nav ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 nav ul li {
-    display: inline;
-    margin: 0px 15px 0px 0px;
+  display: inline-block;
+  flex-wrap: wrap;
+  margin: 15px;
 }
 nav ul li a {
-    padding: 2px 7px 2px 7px;
-    color: royalblue;
-    background-color: aquamarine;
-    border: 1px solid royalblue;
-    text-decoration: double;
+  padding: 2px 7px 2px 7px;
+  color: royalblue;
+  background-color: aquamarine;
+  border: 1px solid royalblue;
+  text-decoration: double;
 }
 nav ul li a:hover {
-    background-color: azure;
-    color: blue;
+  background-color: azure;
+  color: blue;
 }
 section {
   width: 70%;
@@ -77,7 +78,7 @@ section {
 article h2 {
   font-size: small;
 }
-aside{
+aside {
   width: 20%;
   margin-left: 15px;
   margin-top: 25px;
@@ -85,20 +86,120 @@ aside{
   float: left;
   font-size: 1em;
 }
-footer{
+footer {
   width: 95%;
   clear: both;
   margin-top: 25px;
   margin-left: 15px;
   padding: 10px;
+  padding-bottom: 2px;
   font-size: x-small;
+  justify-content: center;
+  text-align: center;
 }
 /*Los identificadores son unicos y solo afectan a la etiqueta que pertenecen*/
-#ListTitle{
+#ListTitle {
   color: red;
   border: 1px solid rgb(3, 59, 41);
 }
 /*Las clases se pueden invocar en multiples etiquetas*/
-.TextFooter{
+.TextFooter {
   color: blueviolet;
+}
+/*Ajustes iniciales para diseño responsive*/
+@media screen and (min-width: 700px) {
+  * {
+    font-size: medium;
+    background-color: rgb(241, 229, 211);
+    font-family: "Noto Sans", sans-serif;
+  }
+  body {
+    background-color: blueviolet;
+  }
+  header {
+    background: blueviolet;
+    width: 90%;
+    padding: 10px;
+    margin: 5px 5px;
+    display: inline-block;
+  }
+  header h1 {
+    width: 70%;
+    font-size: 2em;
+    background: blueviolet;
+    color: whitesmoke;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  header figure {
+    height: 50px;
+    width: 50px;
+    object-fit: contain;
+  }
+  /*Las clases se pueden invocar en multiples etiquetas*/
+  .logo {
+    height: 50px;
+    width: 50px;
+  }
+  nav {
+    font-size: 1em;
+    width: 90%;
+    padding: 5px;
+    margin: 3px 1px;
+    text-align: center;
+  }
+  nav ul {
+    list-style-type: none;
+  }
+  nav ul li {
+    display: inline;
+    margin: 0px 15px 0px 0px;
+  }
+  nav ul li a {
+    padding: 3px;
+    color: royalblue;
+    background-color: aquamarine;
+    border: 1px solid royalblue;
+    text-decoration: double;
+  }
+  nav ul li a:hover {
+    background-color: azure;
+    color: blue;
+  }
+  section {
+    width: 70%;
+    margin-left: 15px;
+    margin-top: 25px;
+    padding: 10px;
+    float: left;
+  }
+  article h2 {
+    font-size: small;
+  }
+  aside {
+    width: 20%;
+    margin-left: 15px;
+    margin-top: 25px;
+    padding: 10px;
+    float: left;
+    font-size: 1em;
+  }
+  footer {
+    width: 95%;
+    clear: both;
+    margin-top: 25px;
+    margin-left: 15px;
+    padding: 10px;
+    padding-bottom: 2px;
+    font-size: x-small;
+    justify-content: center;
+    text-align: center;
+  }
+  /*Los identificadores son unicos y solo afectan a la etiqueta que pertenecen*/
+  #ListTitle {
+    color: red;
+    border: 1px solid rgb(3, 59, 41);
+  }
 }
